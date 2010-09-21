@@ -1,4 +1,5 @@
 Rspec22::Application.routes.draw do
+  root :to => 'my#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
